@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet"href="./spotstyle.css">
+</head>
+<body>
+
+    <div class="sidebar">
+      <div class="logo">
+        <a>
+          <img src="Spotify logo.png" alt="Logo" />
+        </a>
+      </div>
+
+      <div class="sidebarstyle">
+        
+        <ul class="ul">
+          <li class="li">
+            <a>
+              <img src="home.svg" width="30" height="30" alt="">
+              
+              
+              <span>Home</span>
+            </a>
+          </li>
+
+          <li class="li">
+            <a>
+              <img src="search-white.svg" width="30" height="30" alt="">
+              <span>Search</span>
+            </a>
+          </li>
+
+          <li class="li">
+            <a>
+              <img src="library.svg" width="30" height="30" alt="">
+              <span>Your Library</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sidebarstyle">
+        <ul class="ul">
+          <li class="li">
+            <a>
+              <img src="Plus-small.svg" width="30" height="30" alt="">
+              <span>Create Playlist</span>
+            </a>
+          </li>
+
+          <li class="li">
+            <a>
+              <img src="Heart.svg" width="30" height="30" alt="">
+              <span>Liked Songs</span>
+            </a>
+          </li>
+          <li class="li">
+            <a>
+              <img src="media-podcast.svg" width="30" height="30" alt="">
+              <span>Your episodes</span>
+            </a>
+          </li>
+          <li>
+           
+          </li>
+        </ul>
+      </div>
+
+      
+    </div>
+
+    <div class="main-container">
+      <div class="topbar">
+        <div class="prev-next-buttons">
+          <button type="button">
+            <img src="arrow-left.svg" alt="">
+          </button> 
+          <button type="button" >
+            <img src="arrow-right.svg" alt="">
+          </button>
+        </div>
+
+        <div class="navbar">      
+          <button type="button">
+            <img src="search.svg",width="30" height="30" alt="">Artist,songs or podcast</button>
+        </div>
+      </div>
+
+      <div class="yourtopgenres">
+        <h2>Your top genres</h2>
+      </div>
+   
+      <span class="flex-container">
+        <div class="box1">
+          <div class="text">Pop</div>
+        </div>
+      
+        <div class="box2">
+          <div class="text">Hip Hop</div>
+        </div>
+      </span>
+    <div class="yourtopgenres">
+      <h2>Browse all</h2>
+
+    </div>
+    <span class="flex-container">
+      <div class="box3">
+        <div class="text">Podcast</div></div>
+      <div class="box4">
+        <div class="text">Made for you</div></div>  
+      <div class="box5">
+        <div class="text">Charts</div></div> 
+      <div class="box6">
+        <div class="text">Made for you</div></div>  
+         
+        
+    </span>
+  <div class="downbar">
+    
+    <div class="center">
+      <a>
+        <img src="shuffle.svg" alt="" class="hov">
+      </a>
+      
+      <a>
+        <img src="skip-previous.svg" alt="" class="hov">
+      </a>
+      <a>
+        <img src="play.svg" alt="" class="hov">
+      </a>
+      <a>
+        <img src="skip-forward.svg" alt="" class="hov">
+      </a>
+      <a>
+        <img src="repeat-all.svg" alt="" class="hov">
+      </a>
+    
+    </div>
+    <div class="timebar">
+      <a>
+        <img src="time-bar.svg" alt="" >
+      </a>
+    </div>
+    <div class="pic">
+      <a>
+        <img src="pimon.jpeg" alt="" height="70px" width="70px">
+      </a>
+      <div class="text1">Belen</div>
+       
+      
+    </div>
+
+  </div>
+
+ 
+
+</body>
+    
+
+</html>
+<!-- css file
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #000000;
+    padding: 24px;
+    
+  }
+  .sidebarstyle{
+    
+    font-size: 20px;
+    color: white;
+    
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .ul{
+    list-style-type: none;
+    cursor: pointer;
+
+  }
+  .li{
+    padding: 10px;
+  }
+  .li:hover{
+    background-color: #615f5f;
+    border-radius: 10px;
+  }
+
+ 
+  
+  
+  
+  
+  .main-container {
+    margin-left: 245px;
+    margin-bottom: 100px;
+  }
+  
+   .topbar { 
+    display: flex;
+   
+    background-color: #101010;
+     padding: 14px 30px;
+  } 
+  .prev-next-buttons button {
+    color: #7a7a7a;
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-top: 15px;
+    cursor: pointer;
+    
+    margin-right: 10px;
+  }
+ 
+
+
+  
+  .navbar button {
+    background-color: #ffffff;
+    color: #615f5f;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 13px 130px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    
+    
+  }
+  
+  .yourtopgenres {
+    color: white;
+    padding: 20px 40px;
+  }
+  
+  .box1 {
+    
+    background-color: rgb(220, 166, 104);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    
+    
+  }
+  .box1 .text{
+    font-size: 50px;
+    
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+  }
+  .box2{
+    
+    background-color: rgb(165, 93, 164);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    
+  }
+  .box2 .text{
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+  }
+  .box3 {
+    display: flex;
+    background-color: rgb(24, 94, 59);
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    
+  }
+  .box3 .text{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+  }
+  .box4 {
+    background-color: rgb(24, 42, 94);
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    
+  }
+  .box4 .text{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+  }
+  .box5 {
+    background-color: rgb(91, 47, 102);
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    
+  }
+  .box5 .text{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+  }
+  .box6 {
+    background-color: rgb(153, 62, 102);
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    
+  }
+  .box6 .text{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+  }
+  .flex-container { 
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .downbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1e1d1d;
+    padding: 45px 40px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .center {
+    cursor: pointer; 
+    margin-left: 50%;  
+  }
+  .hov:hover{
+    background-color: #4d4848;
+    border-radius: 10px;
+  }
+  .timebar{
+    position: absolute;
+    bottom: 15px;
+    margin-left: 28%;
+  }
+  .pic{
+    position: absolute;
+  }
+  .text1{
+    color:white;
+    float: right;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  } -->
